@@ -1,0 +1,5 @@
+#!/bin/bash
+
+scrot -d 0 'tempscrot.png'
+i3lock -u -i tempscrot.png
+rm tempscrot.png
